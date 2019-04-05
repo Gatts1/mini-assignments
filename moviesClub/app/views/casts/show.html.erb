@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Lunch date:</strong>
+  <%= @cast.lunch_date %>
+</p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @cast.place %>
+</p>
+
+<p>
+  <strong>Actor:</strong>
+  <%= @cast.actor.real_name %>
+</p>
+
+<%= link_to 'Edit', edit_cast_path(@cast) %> |
+<%= link_to 'Back', casts_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lunch_date: 2019-04-03
+  place: MyString
+  actor: one
+
+two:
+  lunch_date: 2019-04-03
+  place: MyString
+  actor: two
